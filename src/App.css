@@ -1,0 +1,41 @@
+App {
+  margin: 0;
+  
+
+}
+
+.editor {
+  width: 55%;
+  margin: auto;
+  height: 550px;
+  overflow: auto;
+  border: 2px solid rgb(107, 7, 7) ;
+  padding: 10px;
+  border-radius: 20px;;
+  background-color: rgba(245, 245, 245, 0.4) ;
+  /* background-color: rgba(160, 94, 94, 0.3); */
+  box-shadow:  10px 10px 5px rgb(107, 7, 7),
+              -10px -10px 5px rgb(107, 7, 7);
+} 
+
+
+ div.toolbarClassName {
+  border-radius: 15px; 
+}  
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-track {
+  background:rgba(107, 44, 44, 0.6) ;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(rgb(107, 7, 7), rgb(160, 94, 94));
+  border-radius: 15px;
+}
+
+.head {
+  padding: 5px 2px;
+}
